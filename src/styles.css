@@ -105,7 +105,10 @@
 .faq-question:hover { color: var(--primary); text-decoration: none; }
 .question-label { display: flex; gap: 12px; align-items: center; }
 .question-number { color: var(--muted-foreground); font-size: 10px; min-width: 20px; font-weight: 400; }
-.question-answer { padding-left: 32px; max-width: 920px; font-size: 12px; line-height: 1.9; color: var(--muted-foreground); }
+.question-answer {  
+  white-space: pre-line;
+  line-height: 1.8;
+padding-left: 32px; max-width: 920px; font-size: 12px; line-height: 1.9; color: var(--muted-foreground); }
 .answer-module { font-size: 10px; display: inline-block; color: var(--primary); margin-bottom: 7px; font-weight: 700; }
 .empty-results { text-align: center; padding: 38px 15px; }
 .empty-results > .symbol { color: var(--muted-foreground); font-size: 35px; }
