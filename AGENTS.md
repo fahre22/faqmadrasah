@@ -14,3 +14,4 @@
 - Keep FAQ presentation tokens and named styles in the global design system so the uploaded design remains consistent.
 - Never copy secrets from uploaded source into browser code; AI service integration requires a separately authorized secure server implementation.
 - Pre-optimize React and route-split FAQ UI dependencies in Vite so first-use discovery does not mix React module generations in an open preview.
+- Keep the homepage announcement carousel in an isolated component using uploaded asset pointers and a hydration-opened dialog so SSR stays consistent and module pages remain unaffected.
